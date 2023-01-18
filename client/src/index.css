@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,700;1,300;1,700&family=Lora:ital,wght@1,400;1,500;1,700&family=Maven+Pro:wght@400;600&family=Montserrat:ital,wght@0,700;1,400;1,700&family=Noto+Sans+Mono:wght@200;300;500&family=Noto+Serif:ital@0;1&family=Nunito:ital,wght@0,300;1,200;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,500;1,700&family=Quicksand:wght@300;400;500;600&family=Urbanist:ital,wght@0,200;0,300;0,500;1,300;1,600&family=Varela&family=Varela+Round&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* > * {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #dcdce6;
+  background-image: url('./assets/background.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
